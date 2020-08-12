@@ -1,0 +1,60 @@
+<html>
+<head><title>New game</title>
+<style>
+body{
+background-image:linear-gradient(to bottom right,orange,cyan 
+60%,yellow);
+}
+
+h1{
+background-color:blue;
+color:white;
+text-align:center;
+text-decoration:underline;
+font-family:algerian;
+
+}
+</style>
+
+</head>
+<body style = "background-color:wheat;">
+
+<h1>application form</h1>
+
+<form action ="index.php" autocomplete = "on">
+
+Lastname:
+<input type="text" name= "lastname"   placeholder ="last name" autofocus ><br><br>
+Firstname:
+<input type="text" name= "firstname" placeholder ="first name"  required          ><br><br>
+email:
+<input type="email" name= "email" placeholder ="email"><br><br>
+gender:
+<input type = "radio" name = "gender" value = "male">Male
+
+<input type = "radio" name = "gender" value = "female">female<br><br>
+qualification:
+<select size = "1" > <option> studying 12
+<option> passed 12
+<option> under graduate
+<option> HERO pass
+</select> <br><br>
+type of job:
+<input type ="checkbox" name = "type of job">  job
+<input type ="checkbox" name = "type of job"> house  job<br>
+D.O.B
+<input type = "date" name ="dob"><br>
+
+<button type ="submit" onclick = "alert('check details')">submit</button>
+<button type = "reset"> reset</button>
+
+<textarea name = "message" rows ="3" cols ="40">
+</textarea><br>
+Select a file:<br>
+<INPUT TYPE ="FILE" NAME= "MYFILE"> <BR>
+
+</form>
+
+</body>
+
+</html>

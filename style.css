@@ -1,0 +1,36 @@
+body {
+  background-color: deepskyblue;
+  overflow-x: hidden;
+}
+.hero {
+  background-image: url("./assests/hero-background.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+}
+.container {
+  margin-top: -50vh;
+  font-size: 20px;
+}
+
+.card-body {
+  text-align: left;
+}
+
+hr {
+  border-width: 3px;
+}
+.stretch {
+  min-width: 95%;
+}
+.footer {
+  width: 100vw;
+  padding: 10px;
+  background-color: blue;
+}
+.footer p {
+  width: fit-content;
+  margin: auto;
+  color: white;
+  text-transform: capitalize;
+}
